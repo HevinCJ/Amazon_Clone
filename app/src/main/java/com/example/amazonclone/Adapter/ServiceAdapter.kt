@@ -1,4 +1,6 @@
 package com.example.amazonclone.Adapter
 
-class ServiceAdapter {
+import androidx.recyclerview.widget.RecyclerView
+
+class ServiceAdapter:RecyclerView.Adapter {
 }
