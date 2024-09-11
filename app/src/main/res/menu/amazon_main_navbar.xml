@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/homem"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"
+        />
+
+    <item android:id="@+id/aboutm"
+        android:title="@string/you"
+        android:icon="@drawable/user"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"
+        />
+
+    <item
+        android:id="@+id/morem"
+        android:title="More"
+        android:icon="@drawable/layer"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"
+        />
+
+    <item android:id="@+id/cartm"
+        android:title="@string/cart"
+        android:icon="@drawable/shoppingcart"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"
+        />
+
+    <item android:id="@+id/morem"
+        android:title="More"
+        android:icon="@drawable/menubtm"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"
+        />
+
+</menu>
